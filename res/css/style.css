@@ -1,0 +1,80 @@
+body {background-image: url(../img/aa.gif);
+  
+width:1920px;
+height:2080px;}
+audio {display:none}
+#circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: black;
+  position: absolute;
+  left: 49%;
+  top: 49%;
+  transition: 0.1s;
+  cursor: pointer;
+}
+#score {
+  font-size: 50px;
+  left: 30%;
+  position: absolute;
+  color: white;
+}
+#score2 {
+  font-size: 50px;
+  left: 49%;
+  position: absolute;
+}
+#songselection {
+    width:200px;
+    cursor: pointer;
+  line-height: 50px;
+  font-size: 20px;
+  text-align:center;
+}
+
+#song1 {
+  width: 200px;
+  background-color: green;
+  
+}
+#song1:hover {
+  width: 200px;
+  background-color: green;
+  font-size: 30px;
+  color: white;
+}
+#song2 {
+  width: 200px;
+  height:100px;
+  background-color: orange;
+  
+}
+#song2:hover {  
+  font-size: 30px;
+  color: white;
+}
+#song3 {
+    height:100px;
+  width: 200px;
+  background-color: red;
+}
+#song3:hover {
+  font-size: 30px;
+  color: white;
+}
+#song4 {
+  width: 200px;
+  background-color: black;
+  color:white
+}
+#song4:hover {
+  font-size: 30px;
+  color: red;
+}
+
+#remainingTime {
+font-size:100px;
+position:absolute;
+top:100px;   
+}
